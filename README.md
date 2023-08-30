@@ -1,2 +1,2 @@
 # callahanhinckley.github.io
-Personal Webiste
+Personal Website
