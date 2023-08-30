@@ -21,15 +21,19 @@ const About = () => {
                     <div className="about__info">
                         <p className="about__description">
                             Hello! I'm Callahan, and I'm based in Honolulu, Hawaii. I studied Statistics and Business Administration at The University of North Carolina at Chapel Hill.<br /><br />
-                           I broke into Product Management from a Data Analysis role and can say I honestly love both! I'm fascinated by the intersection of business and data, especially in the startup space. All of my PM experience has been in Fintech, but I'm also interested in consumer-facing products and Artificial Intelligence. <br /><br />
+                           I broke into Product Management from a Data Analyst role and can say I honestly love both! I'm fascinated by the intersection of business and data, especially in the startup space. All of my PM experience has been in Fintech, but I'm also interested in consumer-facing products and Artificial Intelligence. <br /><br />
                             Here are a few technologies I’ve been working with recently:
                         </p>
                         <ul className="about__list">
                             <li>Tableau</li>
                             <li>Excel</li>
                             <li>SQL</li>
+                            <li>R</li>
+                            <li>Python</li>
+                            <li>APIs</li>
+                            <li>Figma</li>
                         </ul>
-                        <button className="btn" onClick={downloadResume}>Donwload Resume</button>
+                        <button className="btn" onClick={downloadResume}>Download Resume</button>
                     </div>
 
                     {/* <div className="about__skills grid">
