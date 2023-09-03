@@ -11,6 +11,7 @@ import Blog from './components/blog/Blog';
 import Contact from './components/contact/Contact';
 import useLocalStorage from 'use-local-storage'
 import Pricing from './components/pricing/Pricing'
+import Education from './components/education/Education'
 
 
 function App() {
@@ -29,10 +30,11 @@ function App() {
                 <Home />
                 <About />
                 <Resume />
+                <Education />
                 {/* <Services /> */}
-                <Portfolio />
+               {/*  <Portfolio /> */}
                 <Testimonials />
-                <Blog />
+                {/* <Blog /> */}
                 <Contact theme={theme} />
             </main>
         </div>
